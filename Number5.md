@@ -1,0 +1,1 @@
+- Configuring a redux is too complicated, Redux requires too much boiler plate
