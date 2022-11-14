@@ -1,2 +1,0 @@
-- The Context API is great if you only have to interact with a single model, but if you have multiple data structures that you need to maintain in your application’s state, Redux is better.
-With Redux, you can have a single provider that merges together multiple separate sub-states, but with the Context API, you’d need separate providers for “user”, “cart”, “products”, etc. Nesting them all isn’t the end of the world, but Redux is definitely a lot simpler.

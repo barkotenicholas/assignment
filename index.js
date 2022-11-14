@@ -1,21 +1,15 @@
 function fun(){
 
-    vara = prompt("Enter number to seperate with commas");
+    var a = prompt("Enter number to seperate with commas");
 
-    varsumArray =a.split(",");
+    var sumArray =a.split(",");
 
-    letresult =0;
-
-
-
+    let result =0;
     for(let i = 0; i < sumArray.length;i++){
 
       result+= parseInt(sumArray[i]);
 
     }
-
-
-
     alert("result is  "+ result)
 
   }
